@@ -109,7 +109,7 @@ class Responsive {
   /// );
   /// ```
   Responsive(this.context, {ScaleXConfig? config})
-      : config = config ?? ScaleXConfig(),
+      : config = config ?? const ScaleXConfig(),
         width = MediaQuery.of(context).size.width,
         height = MediaQuery.of(context).size.height;
 

@@ -118,10 +118,10 @@ class ScaleXInit extends StatelessWidget {
   /// [config] is required and specifies how ScaleX should behave.
   /// [child] is required and is typically your MaterialApp.
   const ScaleXInit({
-    Key? key,
+    super.key,
     required this.config,
     required this.child,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -1,9 +1,9 @@
 name: scalex
-description: A better alternative to flutter_screenutil that works great for web, mobile, and desktop. Provides simple syntax like 4.w, 4.h, 4.sp with smart scaling that keeps desktop layouts fixed.
-version: 1.0.0
-homepage: https://github.com/yourusername/scalex
-repository: https://github.com/yourusername/scalex
-issue_tracker: https://github.com/yourusername/scalex/issues
+description: Simple responsive sizing for Flutter with syntax like 4.w, 4.h, 4.sp. Smart scaling on mobile/tablet, fixed sizes on desktop. Works seamlessly across web, mobile, and desktop platforms.
+version: 1.0.1
+homepage: https://imrishav.life
+repository: https://github.com/rishuriya/scalex
+issue_tracker: https://github.com/rishuriya/scalex/issues
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
